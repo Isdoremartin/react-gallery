@@ -34,7 +34,7 @@ export default function Tensorflow() {
                 
                <button className='p-2 W-40 rounded bg-blue-800 text-white'
                        onClick={() =>predict(imageRef.current)}>
-                        {isLoading && ':)'}
+                        {isLoading && '⏳'}
                         {!isLoading && "Predict result"}
                 </button>
 
